@@ -1,0 +1,35 @@
+body {
+	font-family: 'Oxygen', sans-serif;
+}
+
+table, tr, th, td {
+	border: 1px solid black;
+	padding: 13px;
+	font-size: 103%;
+}
+
+table {
+	margin-bottom: 20px;
+}
+
+th {
+	font-size: 125%;
+	background: #3DB15A;
+}
+
+tr:nth-child(odd) {
+    background-color: #77FF9A;
+}
+
+#loading {
+	font-size: 150%;
+}
+
+#header, #descriptionText {
+	text-align: center;
+}
+
+#nav {
+	margin-top: 150px;
+	padding-top: 150px;
+}

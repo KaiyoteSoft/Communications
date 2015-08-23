@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>This is the title</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="displayStyle.css"></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="parser.js"></script>
+</head>
+<body onload="processData()">
+<div class="container">
+	<h1 id="header">Showcase of Student Work</h1>
+	<h4 id="descriptionText">This is the full showcase of student work from the Communications classroom. Click on a Url to get started.</h4>
+	<input id="search" type="text" placeholder="Search by student name"></input>
+	<button type="button" class="btn btn-success" onClick="searchName()">Search</button>
+
+
+	<div id="loading"></div>
+	<div id="work"></div>
+	<button type="button" class="btn btn-primary" onClick="processData()">Display All</button>
+	<a type="button" class="btn btn-success" href="../index.html">Back to main site</a>
+</div>
+</body>
+</html>
