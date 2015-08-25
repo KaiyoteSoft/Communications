@@ -5,8 +5,27 @@
  */
 
 /* Toggle Styles */
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 150%;
+}
 
-#wrapper {
+#header {
+    text-align: center;
+    font-weight: bold;
+    font-size: 300%;
+}
+
+.bodyText {
+    font-weight: bold;
+}
+
+#nav {
+    margin-bottom: 100px;
+}
+
+/*This is the sidebar css that comes with the template
+*/#wrapper {
     padding-left: 0;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
