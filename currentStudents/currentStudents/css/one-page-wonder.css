@@ -9,6 +9,10 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+#start {
+    margin-top: 20px;
+}
+
 footer {
     text-align: center;
 }
@@ -17,7 +21,7 @@ footer {
     display: block;
     width: 100%;
     text-align: center;
-    background: url('../img/wall8.jpg') no-repeat center center scroll;
+    background: url('../img/blueBackground.jpg') no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
