@@ -21,8 +21,10 @@ function processData() {
 		// console.log(jdata.length);
 		listContainer = [];
 
-		var i = 0;
-		for (i; i < jdata.length; i++) {
+
+		var i = jdata.length - 1;
+		console.log(i);
+		for (i; i > 0; i--) {
 			// if (jdata[i].firstName == name) {
 			var name = jdata[i].Name;
 			var url = jdata[i].urlLink;
@@ -48,10 +50,10 @@ function searchName() {
 	$('#work').html(" ");
 	$('#loading').html("Loading...");
 	listContainer = [];
-	i = 0;
+	i = jdata.length - 1;
 	count = 0;
 	var searchValue = $('#search').val();
-	for (i; i < jdata.length; i++) {
+	for (i; i > 0; i--) {
 		var nameData = jdata[i].Name;
 		if (nameData.startsWith(searchValue)) {
 			console.log(searchValue);
