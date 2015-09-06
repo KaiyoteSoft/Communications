@@ -12,6 +12,8 @@
     <title>Communications/Current Students</title>
 
     <!-- Bootstrap Core CSS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
     <link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -54,9 +56,9 @@
                     <li>
                         <a href="#application">Take Your Skills Beyond High School</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="videoDirections2.html">*Directions for Uploading Videos to YouTube</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -89,9 +91,26 @@
             <h2 class="featurette-heading">Submit Your
                 <span class="text-muted">Awesome Work</span>
             </h2>
-            <p class="lead">You can submit work to the website for anybody to view. If the developer really likes your example it will be moved to the main landing page accompianied by a photo. Follow the instructions on the <a href="https://docs.google.com/forms/d/1-K0-8G0Pd7JEbVzC8Gc2c4b9o--Sf6nDIgGh5d7rqrc/viewform?usp=send_form" target="_blank"> google form.</a> <br><br> 
-                Over the year you will give a variety of speeches. Your speeches will be recorded and you are required to review them in order to improve your communication skills. To review your speeches and create your portfolio you WILL need a YouTube account. <br>
-                <a href="videoDirections.html">Click here for ridiculously simple directions on how to upload your speeches to YouTube.</a></p>
+            <p class="lead"><strong>Submitting General Work:</strong> You can submit assignments to the "Student Work Table" to organize your work in preparation for the portfolio you will be making. If the developer really likes your work it will be moved to the main landing page accompianied by a photo.    <br>
+                <a type="button" id="varButton" class="btn btn-success" href="https://docs.google.com/forms/d/1-K0-8G0Pd7JEbVzC8Gc2c4b9o--Sf6nDIgGh5d7rqrc/viewform?usp=send_form" target="_blank">Submit Assignments</a>   <a type="button" id="varButton" class="btn btn-primary" href="../../studentWork/workDisplay.html" target="_blank">View the Table</a>
+             <br><br> 
+                <strong>Submitting Speeches / Videos:</strong> Over the year you will give a variety of speeches. Your speeches will be recorded and you are required to review them in order to improve your communication skills. To review your speeches and create your portfolio you WILL need a YouTube account. <br>
+                <a href="videoDirections2.html">Click here for ridiculously simple directions on how to upload your speeches to YouTube.</a></p>
+            <div class='row'>
+                <div class='col-md-3'>
+                    <div class="dropdown" >
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="varButton" data-toggle="dropdown">
+                         Click Here for Various Tutorials
+                         <span class="caret"></span></button>
+                            <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="videoDirections2.html">Directions for Uploading Videos to YouTube</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="studentTable.html">Directions for Posting to "Student Work Table"</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creating A Shareable Link in Google Drive (Coming Soon)</a></li>
+                                <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Creating and Using Flickr to Share Photos (Coming Soon)</a></li>                  
+                            </ul>
+                    </div>
+                </div>
+
         </div>
 
         <hr class="featurette-divider">
@@ -117,14 +136,15 @@
             <br>
             <br>
             <br>
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+            <img class="featurette-image img-circle img-responsive pull-right" src="img/linkedin.png">
             <h2 class="featurette-heading">Take Your Skills
                 <span class="text-muted">Beyond High School.</span>
             </h2>
             <p class="lead">Part of the Communications class is learning how to show yourself off to possible employers. When you start the fourth unit your teacher will direct you to this section. Follow the steps below to establish your presence online. <br>
             1) <a href="https://carbonmade.com/" target="_blank">Create A Portfolio with carbonmade.com</a> <br>
             2) <a href="https://www.linkedin.com/" target="_blank">Create a LinkedIn Profile</a>  <br> 
-            3) Fill the LinkedIn account with your new portfolio, speeches from class and other work you are proud of </p>
+            3) Fill the LinkedIn account with your new portfolio, speeches from class and other work you are proud of <br><br>
+            <a href="http://www.linkedin.com/in/KaiOda" target="_blank">*Example profile here*</a></p>
         </div>
 
         <hr class="featurette-divider">
@@ -133,14 +153,17 @@
             <br>
             <br>
             <br>
-            <img class="featurette-image img-circle img-responsive pull-left" src="img/portfolio.png">
+            <img class="featurette-image img-circle img-responsive pull-left" src="img/help.png">
             <h2 class="featurette-heading">Submit Changes
                 <span class="text-muted">And Maybe We Will Fix It.</span>
             </h2>
-            <p class="lead">The developer has no idea what to do with this section. If you want to help him out, or just submit improvements you can <a href="https://docs.google.com/forms/d/1UvINyb7zhXUOc2biY6sXwbtFrO3ErME9v3r4dC4eQKM/viewform?usp=send_form" target="_blank">click here </a></p>
+            <p class="lead">The developer has no idea what to do with this section. If you have suggestions for features, or want to correct an error in the website click the button below. Seriously, if something is spwelled wongly u shud say somethin. <br><br> <a type="button" class="btn btn-success" href="https://docs.google.com/forms/d/1UvINyb7zhXUOc2biY6sXwbtFrO3ErME9v3r4dC4eQKM/viewform?usp=send_form" target="_blank">Send Website Improvements</a> </p>
         </div>
 
         <hr class="featurette-divider">
+
+
+       
 
         <!-- Footer -->
         <footer>
