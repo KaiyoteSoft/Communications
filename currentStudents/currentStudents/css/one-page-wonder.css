@@ -13,6 +13,10 @@ body {
     margin-top: 20px;
 }
 
+#varButton {
+    margin-top: 10px;
+}
+
 footer {
     text-align: center;
 }
